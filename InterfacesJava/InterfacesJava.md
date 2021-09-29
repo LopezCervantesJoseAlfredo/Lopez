@@ -1,16 +1,16 @@
 # *INTERFACES LISTENER Y SUS METODOS EN JAVA*
-# ActionListener :*
+**ActionListener :**
 <p>Se usa para detectar y manejar eventos de acción, osea, los que tienen lugar cuando se produce una acción sobre un elemento del programa.
 <p>
 METODOS :
 <p>actionPerformed (ActionEvent)
 </p>
-# AdjustmentListener :
+# * AdjustmentListener : *
 <p>Para escuchar los eventos de tipo AdjustmentEvent producidos por la clase JScrollbar deberemos implementar la interfaz
 <p> METODOS:
 <p>adjustmentValueChanged(AdjustmentEvent)
 </p>
-# ComponentListener :* 
+# ComponentListener :
 <p>Para marcar un objeto con la capacidad de escuchar eventos de tipo Component Event deberemos implementar la interfaz Component Listener . Los objetos que producen estos eventos son los JDialog y los JFrames
 <p> METODOS:
 <p>-componentHidden(ComponentEvent)
